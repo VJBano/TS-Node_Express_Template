@@ -12,7 +12,7 @@ This repository contains Backend Template for Express.js Typescript enabled.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/VJBano/ts-node_express_template.git
+   git clone https://github.com/VJBano/TS-Node_Express_Template.git
 
 
 ## Usage
