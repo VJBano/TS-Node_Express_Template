@@ -35,7 +35,7 @@ This repository contains Backend Template for Express.js Typescript enabled.
 
    ```bash
    npm run build
-   npm start
+   npm run production
 
    
 ## Authors
