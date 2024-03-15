@@ -1,11 +1,13 @@
-import type { Response, NextFunction, Request } from "express"
+import type { Response, NextFunction, Request } from "express";
 
-const authMiddleware = (req:Request, res:Response, next:NextFunction) =>{
+const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
+  try {
 
-    //do something here
+    return next()
+    
+  } catch (error) {
+
+  }
 };
 
-    
-
-
-export default authMiddleware
+export default authMiddleware;

@@ -10,7 +10,7 @@ import authRoute from './routers/authRoute'
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8181;
 
 app.use(cors({
     credentials: true
@@ -23,6 +23,7 @@ app.use(bodyParser.json());
 
 //routes here with middleware
 app.use("/api/v1/user", authRoute);
+
 
 
 const server = http.createServer(app);
